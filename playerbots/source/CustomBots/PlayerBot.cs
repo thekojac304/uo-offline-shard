@@ -25,7 +25,7 @@ using Server.Targeting;
 
 namespace Server.CustomBots
 {
-    public class PlayerBot : PlayerMobile
+    public partial class PlayerBot : PlayerMobile
     {
         public bool IsBot { get; set; } = true;
 

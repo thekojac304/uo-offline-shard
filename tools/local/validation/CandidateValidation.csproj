@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>14</LangVersion>
+    <AssemblyName>CandidateValidation</AssemblyName>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CandidateValidation.cs" />
+    <Reference Include="Server"><HintPath>$(CandidateDistribution)/Server.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UOContent"><HintPath>$(CandidateDistribution)/Assemblies/UOContent.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
